@@ -1,5 +1,6 @@
 package bankline.com.model;
 
-public class MovimentacaoTipo {
-
+public enum MovimentacaoTipo {
+	RECEITA,
+	DESPESA
 }
