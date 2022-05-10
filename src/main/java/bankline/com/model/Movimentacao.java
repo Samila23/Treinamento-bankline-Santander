@@ -33,4 +33,7 @@ public class Movimentacao {
 	
 	@Enumerated(EnumType.STRING) //Salvará o próprio valor literal, no caso RECEITA OU DESPESA
 	private MovimentacaoTipo tipo;
+	
+	@Column(name = "id_conta")
+	private Integer idConta;
 }

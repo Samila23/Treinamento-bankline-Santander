@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 @Entity
-@Table(name = "tab_corretista")
+@Table(name = "tab_correntista")
 public class Correntista {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,5 +31,5 @@ public class Correntista {
 	
 	@Embedded //todas as informações armazenada na conta será armazenada na tabela correntista
 	//Objeto do tipo Conta
-	private Conta getConta;
+	private Conta Conta;
 }
